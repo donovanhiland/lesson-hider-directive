@@ -86,9 +86,7 @@ angular.module('directivePractice')
 });
 ```
 
-Unlike dependency injection used elsewhere in Angular these parameter names don't carry specific meaning. The first parameter represents the `$scope` of your
-directive, the second is the html element that wraps your directive, and the third is an object containing all the properties and values of the attributes on
-your directive in the DOM.
+Unlike dependency injection used elsewhere in Angular these parameter names don't carry specific meaning. The first parameter represents the `$scope` of your directive, the second is the html element that wraps your directive, and the third is an object containing all the properties and values of the attributes on your directive in the DOM.
 
 Remember that data is passed to directives through attributes on the element. So in our html let's add an attribute named `my-test` and give it a value of
 `Hello there!`. Just like this: `<lesson-hider my-test="Hello there!"></lesson-hider>`
@@ -335,4 +333,3 @@ prohibited. Excerpts and links may be used, provided that full and clear credit 
 content.
 
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250">
-
